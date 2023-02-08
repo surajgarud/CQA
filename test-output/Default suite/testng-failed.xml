@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Fb_Automation.Login">
+      <class name="Fb_Automation.PopUp">
         <methods>
-          <include name="locators"/>
           <include name="setup"/>
+          <include name="hidepopup"/>
         </methods>
-      </class> <!-- Fb_Automation.Login -->
+      </class> <!-- Fb_Automation.PopUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
